@@ -1,0 +1,29 @@
+
+{% include 'nav.html' %}
+<div class="main">
+{% block content %}
+  <!-- {% for tb in tbs_cat %}
+    <a href="{{ url_for('showPapers',tbid=tb.id)}}">{{tb.name}}</a><br>
+    {% endfor %} -->
+    {% with messages = get_flashed_messages() %}
+	    {% if messages %}
+	        <div class="alert alert-success alert-dismissable animated fadeIn">
+	            {% for message in messages %}
+	            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+	            <p class="h4"><strong>{{ message }}</strong></p>
+	            {% endfor %}
+	        </div>
+	    {% endif %}
+	{% endwith %}
+	
+	<div class="text-center">
+		<!-- <h1>Welcome to Paperstore</h1> -->
+		<p><h1>NEWS PAPERS STORE</h1></p>
+		<img style="width: 1000px; height: 450px; margin: 0; padding: 0; margin-top: 35px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm4gnk0xIXYpfmEMY7ajMr0X75uGdVe_6a18_pbtReobKvSevK">
+		>
+	</div>
+	
+
+    
+{% endblock content %}
+</div>
