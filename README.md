@@ -6,3 +6,4 @@ it provides item details
 .database_setup
 .json files
 .python files
+are included in project
