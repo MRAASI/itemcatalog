@@ -4,3 +4,4 @@ it provides item details
 # like add,delete,edit the details.
 # we can login into g mail account
 .database_setup
+.json files
