@@ -5,3 +5,4 @@ it provides item details
 # we can login into g mail account
 .database_setup
 .json files
+.python files
