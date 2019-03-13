@@ -1,5 +1,6 @@
 # itemcatalog
 Item Catalog Web App
+by Raasi
 This web app is a project for the Udacity FSND Course.
 
 About
